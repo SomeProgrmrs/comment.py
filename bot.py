@@ -123,29 +123,29 @@ def comment_page(driver,urls,comment):
 def random_comment():
 # You can edit these lines if you want to add more comments===================================
 	comments = [
-		'Check out my channel!',
-		'https://www.youtube.com/watch?v=0tPu7L_dxR4',
-		'https://www.youtube.com/watch?v=S1n9NlCDUbo&t=3s',
-		'https://www.youtube.com/watch?v=AAtUS0lLjvQ&t=4s',
-		'https://www.youtube.com/watch?v=AAtUS0lLjvQ&t=4s',	
-		'https://www.youtube.com/watch?v=PLQH3ibZZrY&t=11s',
-		'https://www.youtube.com/watch?v=PLQH3ibZZrY&t=11s',
-		'https://www.youtube.com/watch?v=PzbtaUyPpzQ&t=2s',
-		'https://www.youtube.com/watch?v=b5Uv0CNp1o0&t=2s',
-		'https://www.youtube.com/watch?v=AepFFzOIiKg&t=1s',
-		'https://www.youtube.com/watch?v=6eTLwJVGiR8&t=4s',
-		'https://www.youtube.com/watch?v=e83xe72_E3E',
-		'https://www.youtube.com/watch?v=fbOQX3QPz-M&t=26s',
-		'https://www.youtube.com/watch?v=ZQ5GYKqkEPg&t=16s',
-		'https://www.youtube.com/watch?v=5-hf1EsDMt0&t=4s',
-		'https://www.youtube.com/channel/UCuAjoGTTf7iaMixpiEdKFZQ',
-		'I also post a lot of videos like this',
+		'nice vid btw lol',
+		'I love these types of videos. btw why so many bots',
+		'who else was just browsing youtube lol',
+		'Is it just me or is this a really good vid',
+		'L + ratio',	
+		'😂😂😂',
+		'yo wth is this?',
+		'Who else was just watching random vids 😂',
+		'gud vid',
+		'bru i am just vibing',
+		'im hungry hold on',
+		'honestly this vid is －O－. Like this vid hits different',
+		'ye lol.',
+		'Thanks a lot bro (i would appreciate checking out my channel.)',
+		'noice',
+		'whos here before the end before time 😁😁',
+		'i forgor 💀',
 		'pls check out my channel',
-		'I have a tutorial of this on my channel',
-		'Learn how to make this bot on my channel',
-		'subscribe to my channel',
-		'subscribe to my channel for good luck',
-		'pls subscribe to my channel'
+		'😎',
+		'I hate Mr. Beast bots bro',
+		'legend has it i am everywhere...',
+		'legend has it i am a bot',
+		'just got done watching anime lol'
 
 
 	]
@@ -213,7 +213,7 @@ if __name__ == '__main__':
 		key.send_keys(Keys.DELETE)
 
 		#get keyword list and extract each key
-		with open('gaming_keywords.txt', 'r') as f:
+		with open('keywords.txt', 'r') as f:
 			keywords = [line.strip() for line in f]
 			random_keyword = random.choice(keywords)
 			keys = spintax.spin(random_keyword)
